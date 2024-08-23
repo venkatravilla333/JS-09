@@ -95,3 +95,53 @@
     5) null: 
 
        Null means an empty value. The variable which has been assigned as null contains no value.
+
+       Reference data types: we use reference data types to store multiple values in memory location.
+   --------------------
+
+   Note: All reference data types will store value somewhere in memory location. The stored memory location address will be stored in main memory.
+
+    1) Object:
+
+      By using object we can store multiple values in single memory location in the form of key & value pair.
+    
+      By using dot operator we can access the object values in app.
+  
+      Objects are often used to model real-world entities such as a person, car, or any other entity that has properties and behaviors.
+
+      
+    2) Array:
+   
+      By using array we can store collection of values in single memory location. It stores only values. Internally js attaches index numbers to the values in array. By using index numbers we can access array values in app.
+ 
+    3) Function:
+
+    - Funtion is block of code. By using a function we can do some task and return some value.
+    - For every function call seperate excution context will be created. 
+    - For every excution context, there are memory creation phase and code excution phase. 
+    - We can stores multiple values in functional scope. 
+      
+
+   ES-6
+   ----
+   4) Map
+   5) WeakMap
+   6) Set
+   7) WeakSet
+
+3) typeOf operator 
+
+  - By using typeof operator we can find data type for the value which is stored in memory.
+
+    value : datatype
+    ------  --------
+
+   'sachin': string
+   40: number
+   true/false: boolean
+   undefined: undefined
+   null: object
+   {}: object
+   []: object
+   function(){}: function
+   
